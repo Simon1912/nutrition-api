@@ -1,6 +1,12 @@
 {
   "name": "nutrition-api",
   "version": "1.0.0",
-  "private": true,
-  "type": "module"
+  "description": "Simple nutrition calculator API",
+  "main": "api/nutrition-calc.js",
+  "scripts": {
+    "start": "node api/nutrition-calc.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
